@@ -6,6 +6,7 @@ import Header from "./components/Header";
 import List from "./components/List";
 import MainContent from "./components/MainContent";
 import ProductInfo from "./components/ProductInfo";
+import Props from "./components/Props";
 import UserList from "./components/UserList";
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <ProductInfo />
       <List />
       <UserList />
+      <Props />
       <Footer />
     </div>
   );
