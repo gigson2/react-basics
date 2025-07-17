@@ -5,6 +5,7 @@ import Greeting from "./components/Greeting";
 import Header from "./components/Header";
 import List from "./components/List";
 import MainContent from "./components/MainContent";
+import Password from "./components/Password";
 import ProductInfo from "./components/ProductInfo";
 import Props from "./components/Props";
 import UserList from "./components/UserList";
@@ -18,6 +19,7 @@ function App() {
       <List />
       <UserList />
       <Props />
+      <Password isValid={true} />
       <Footer />
     </div>
   );
