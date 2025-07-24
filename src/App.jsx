@@ -1,4 +1,5 @@
 import Add from "./components/Add";
+import Cart from "./components/Cart";
 import Footer from "./components/Footer";
 import Greet from "./components/Greet";
 import Greeting from "./components/Greeting";
@@ -9,6 +10,7 @@ import Password from "./components/Password";
 import ProductInfo from "./components/ProductInfo";
 import Props from "./components/Props";
 import UserList from "./components/UserList";
+import WeatherCondition from "./components/WeatherCondition";
 function App() {
   return (
     <div>
@@ -21,6 +23,8 @@ function App() {
       <Props />
       <Password isValid={true} />
       <Footer />
+      <Cart />
+      <WeatherCondition />
     </div>
   );
 }
