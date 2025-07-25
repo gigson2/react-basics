@@ -1,5 +1,11 @@
-function Greet() {
-  return <h1>Hello, Worlds!</h1>;
+import React from 'react'
+
+const Greet = ({timeOfDay}) => {
+  return timeOfDay === 'morning' ? (
+    <h1>Good Morning</h1>
+  ) : (
+    <h1>Good {timeOfDay}</h1>
+  )
 }
 
-export default Greet;
+export default Greet

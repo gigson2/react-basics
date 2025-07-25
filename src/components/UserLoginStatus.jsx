@@ -2,9 +2,9 @@ import React from 'react'
 
 const UserLoginStatus = (props) => {
     if (props.isLoggedIn && props.isAdmin) {
-        return <p>Logged in as admin</p>
+        return <h4>Logged in as Admin</h4>
     } else {
-        return <p>Logged in as user</p>
+        return <h4>Logged in as User</h4>
     }
 }
 

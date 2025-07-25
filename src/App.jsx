@@ -1,5 +1,6 @@
 import Cart from "./components/Cart";
 import Footer from "./components/Footer";
+import Greet from "./components/Greet";
 import Greeting from "./components/Greeting";
 import Header from "./components/Header";
 import List from "./components/List";
@@ -25,6 +26,7 @@ function App() {
       <Cart />
       <WeatherCondition />
       <UserLoginStatus isLoggedIn={true} isAdmin={true} />
+      <Greet timeOfDay="evening" />
     </div>
   );
 }
