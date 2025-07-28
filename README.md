@@ -21,4 +21,4 @@ If you are developing a production application, we recommend using TypeScript wi
 4. if you wrap up formula in {} jsx will treat it to produce results. eg *{2 + 2} = 4* but 2 + 2 will be printed out because it is not in any curly braces.
 5. I have also learn conditional statements and props
 6. I have learnt from destructuring to styling and now using UseState and UseEffect hooks. Growing in the frontend
-7. 
+7. Learnt UseState and Portal

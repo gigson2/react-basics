@@ -17,6 +17,7 @@ import ToDoList from "./components/ToDoList";
 import UserList from "./components/UserList";
 import UserLoginStatus from "./components/UserLoginStatus";
 import WeatherCondition from "./components/WeatherCondition";
+import CopyInput from './components/CopyInput';
 function App() {
   return (
     <div>
@@ -39,6 +40,7 @@ function App() {
       <ToDoList />
       <Profilee />
       <ShoppingList />
+      <CopyInput />
     </div>
   );
 }
