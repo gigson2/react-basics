@@ -8,9 +8,12 @@ import List from "./components/List";
 import MainContent from "./components/MainContent";
 import Password from "./components/Password";
 import ProductInfo from "./components/ProductInfo";
+import Profilee from "./components/Profilee";
 import Props from "./components/Props";
+import { ShoppingList } from "./components/ShoppingList";
 import StateComp from "./components/StateComp";
 import StyledCard from "./components/StyledCard";
+import ToDoList from "./components/ToDoList";
 import UserList from "./components/UserList";
 import UserLoginStatus from "./components/UserLoginStatus";
 import WeatherCondition from "./components/WeatherCondition";
@@ -33,6 +36,9 @@ function App() {
       <StyledCard />
       <IconStyle />
       <StateComp />
+      <ToDoList />
+      <Profilee />
+      <ShoppingList />
     </div>
   );
 }
