@@ -22,3 +22,4 @@ If you are developing a production application, we recommend using TypeScript wi
 5. I have also learn conditional statements and props
 6. I have learnt from destructuring to styling and now using UseState and UseEffect hooks. Growing in the frontend
 7. Learnt UseState and Portal
+8. useEffect - Use without dependency array

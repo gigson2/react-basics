@@ -18,6 +18,7 @@ import UserList from "./components/UserList";
 import UserLoginStatus from "./components/UserLoginStatus";
 import WeatherCondition from "./components/WeatherCondition";
 import CopyInput from './components/CopyInput';
+import UseeEffect from "./components/UseeEffect";
 function App() {
   return (
     <div>
@@ -41,6 +42,7 @@ function App() {
       <Profilee />
       <ShoppingList />
       <CopyInput />
+      <UseeEffect />
     </div>
   );
 }
