@@ -19,6 +19,7 @@ import UserLoginStatus from "./components/UserLoginStatus";
 import WeatherCondition from "./components/WeatherCondition";
 import CopyInput from './components/CopyInput';
 import UseeEffect from "./components/UseeEffect";
+import FetchDatabyUseEffect from "./components/FetchDatabyUseEffect";
 function App() {
   return (
     <div>
@@ -43,6 +44,7 @@ function App() {
       <ShoppingList />
       <CopyInput />
       <UseeEffect />
+      <FetchDatabyUseEffect />
     </div>
   );
 }
