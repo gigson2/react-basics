@@ -22,6 +22,7 @@ import UseeEffect from "./components/UseeEffect";
 import FetchDatabyUseEffect from "./components/FetchDatabyUseEffect";
 import NUserProfile from "./components/NUserProfile";
 import { UserContextProvider } from "./components/UserContext";
+import UpdateUser from "./components/UpdateUser";
 function App() {
   return (
     <div>
@@ -49,6 +50,7 @@ function App() {
       <FetchDatabyUseEffect />
       <UserContextProvider>
         <NUserProfile />
+        <UpdateUser />
       </UserContextProvider>
 
     </div>
