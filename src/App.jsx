@@ -20,6 +20,8 @@ import WeatherCondition from "./components/WeatherCondition";
 import CopyInput from './components/CopyInput';
 import UseeEffect from "./components/UseeEffect";
 import FetchDatabyUseEffect from "./components/FetchDatabyUseEffect";
+import NUserProfile from "./components/NUserProfile";
+import { UserContextProvider } from "./components/UserContext";
 function App() {
   return (
     <div>
@@ -45,6 +47,10 @@ function App() {
       <CopyInput />
       <UseeEffect />
       <FetchDatabyUseEffect />
+      <UserContextProvider>
+        <NUserProfile />
+      </UserContextProvider>
+
     </div>
   );
 }
