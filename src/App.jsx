@@ -23,6 +23,7 @@ import FetchDatabyUseEffect from "./components/FetchDatabyUseEffect";
 import NUserProfile from "./components/NUserProfile";
 import { UserContextProvider } from "./components/UserContext";
 import UpdateUser from "./components/UpdateUser";
+import Counter from "./components/Counter";
 function App() {
   return (
     <div>
@@ -52,6 +53,7 @@ function App() {
         <NUserProfile />
         <UpdateUser />
       </UserContextProvider>
+      <Counter /> {/* Counter component added here */}
 
     </div>
   );

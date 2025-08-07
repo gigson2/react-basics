@@ -24,3 +24,4 @@ If you are developing a production application, we recommend using TypeScript wi
 7. Learnt UseState and Portal
 8. useEffect - Use without dependency array
 9. useContext = To share data between components without prop drilling
+10. useReducer = to increase or decrease the count of items in cart or to add or remove items from cart
